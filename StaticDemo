@@ -1,0 +1,9 @@
+class StaticDemo
+{
+//  int i=10; // Wrong because static method always use static variable
+  static int i=10; // Right
+  public static void main(String a[])
+  {
+    System.out.print(i);
+  }
+}
